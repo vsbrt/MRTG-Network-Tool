@@ -1,25 +1,21 @@
 # MRTG-Network-Tool
 network monitor tool which captures performance metrics from an SNMP enabled networking device and stores them into RRD to generate graphical representation on a web interface
-
-*******************************************
-
-		LAB-2
-********************************************
-
+---
 Bitrate is the metric monitored in this performance monitoring tool. Elements such as Crontab for scheduling, RRD tool for holding data, MySQL database and SNMP for retrieval.
+---
 The required packages and the installation to run this tool are:
-1→ Perl
-	From terminal: sudo apt-get install perl
-2→ DBI 
-	From terminal: sudo apt-get install libdbi-perl
-3→ DBD::mysql
-	→From terminal: sudo apt-get install libmysqlclient-dev
-	→Download and extract DBD::mysql-4.028.tar.gz file from cpan
-	→From terminal give the path of the directory where it is extracted and follow the commands given below as root.
-		→perl Makefile.pl
-		→make
-		→make install
-4→ Net::SNMP
+1. Perl
+* Install From terminal: sudo apt-get install perl
+2. DBI 
+* Install From terminal: sudo apt-get install libdbi-perl
+3. DBD::mysql
+* Install From terminal: sudo apt-get install libmysqlclient-dev
+* Download and extract DBD::mysql-4.028.tar.gz file from cpan
+* From terminal give the path of the directory where it is extracted and follow the commands given below as root.
+		1. perl Makefile.pl
+		2. make
+		3. make install
+4. Net::SNMP
 	→From terminal:
 		→sudo apt-get install snmp
 		→sudo apt-get install snmpd
