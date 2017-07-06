@@ -12,9 +12,9 @@ The required packages and the installation to run this tool are:
 * Install From terminal: sudo apt-get install libmysqlclient-dev
 * Download and extract DBD::mysql-4.028.tar.gz file from cpan
 * From terminal give the path of the directory where it is extracted and follow the commands given below as root.
-		1. perl Makefile.pl
-		2. make
-		3. make install
+	1. perl Makefile.pl
+	2. make
+	3. make install
 4. Net::SNMP
 	→From terminal:
 		→sudo apt-get install snmp
